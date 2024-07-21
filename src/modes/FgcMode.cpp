@@ -27,8 +27,8 @@ void FgcMode::UpdateDigitalOutputs(InputState &inputs, OutputState &outputs) {
     outputs.home = inputs.c_down;
 
     // Stick buttons
-    outputs.buttonR3 = inputs.c_up;
-    outputs.buttonL3 = inputs.c_left;
+    outputs.rightStickZ = inputs.c_up;
+    outputs.leftStickZ = inputs.c_left;
 
     // Right hand bottom row
     outputs.a = inputs.b;
